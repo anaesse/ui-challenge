@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+}
+.body{
+	background: white;
+	font-family:monospace;
+}
+.sticky{
+    margin-top: 0;
+}
+.nav{
+    list-style: none;
+    padding: 1px;
+    padding-right: 35px;
+    clear: both;
+    font-size: 20px
+}
+li{
+    float: right;
+    margin-top: 20px;
+margin-left: 60px;
+    font-size: 12px;
+}
+#sign{
+    border: 2px solid lightpink;
+    padding:3px 8px 3px 8px;
+    border-radius: 5px;
+    color: orangered;
+    background-color:lightpink;
+}
+.container{
+    width: 50%;
+    height:550px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -moz-box-shadow: 5px 5px 8px lightgray;
+    -ms-box-shadow: 5px 5px 8px lightgray;
+    -webkit-box-shadow: 5px 5px 8px lightgray;
+    -o-box-shadow: 5px 5px 8px lightgray;
+    box-shadow: 5px 5px 8px lightgray;
+    
+}
+#circle{
+    background: lightblue;
+    border-radius: 50%;
+    position: relative;
+    width: 20px;
+    height: 20px; 
+    left: 60px;
+    top: 72px;
+    z-index: -1;
+}
+#build{
+    position: relative;
+    top:50px;
+    font-size: 40px;
+    margin: 0px 70px 50px 70px;
+    
+}
+#fullstop{
+    background:darkorange;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-top:-20px;
+    margin-left: 230px;
+}
+#shape{
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0;
+    top:-179px;
+    border-top-right-radius: 100px;
+    
+}
+#two{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 90px;
+    top:-67px;
+    z-index: -1;
+}
+#one{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 245px;
+    top:-115px;
+    
+}
+p{
+    margin-left: 72px;
+    margin-top: 40px;
+    font-size: 10px
+}
+button{
+    background-color: orangered;
+    border-color: orangered;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 250px;
+    left:70px;
+}
+
+@media(max-width:991px){
+    .container{
+        width: 100%
+    }
+}
+/*Mobile-view*/
+@media(max-width:767px){
+    .container{
+        width: 100%;
+    }
+    
+}
